@@ -5,6 +5,7 @@ package Common;
  */
 public class HelloWorld {
     // add a comment
+    // This is a test java file
     public static void main(String[] args){
         System.out.println("helloWorld");
     }
