@@ -17,6 +17,9 @@ public class Redis {
         setAndgetList();
     }
 
+    /**
+     * 检查REDIS连接状态
+      */
     public static void CheckStatus(){
         System.out.println("Redis Connection Status is:");
         System.out.println("Status is: " + jedis.ping());
